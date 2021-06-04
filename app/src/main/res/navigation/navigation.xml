@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/dashBoardFragment">
+    <fragment
+        android:id="@+id/dashBoardFragment"
+        android:name="com.sounak.womensafety.DashBoardFragment"
+        android:label="Dashboard"
+        tools:layout="@layout/fragment_dash_board">
+        <action
+            android:id="@+id/action_dashBoardFragment_to_guardianInfo"
+            app:destination="@id/guardianInfo"
+            app:popUpTo="@+id/dashBoardFragment"
+            app:popUpToInclusive="false" />
+        <action
+            android:id="@+id/action_dashBoardFragment_to_mapsActivity"
+            app:destination="@id/mapsActivity"
+            app:popUpTo="@+id/dashBoardFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/guardianInfo"
+        android:name="com.sounak.womensafety.guardiandetail.GuardianInfo"
+        android:label="Guardian Information"
+        tools:layout="@layout/fragment_guardian_info">
+        <action
+            android:id="@+id/action_guardianInfo_to_addGuardian"
+            app:destination="@id/addGuardian"
+            app:popUpTo="@+id/addGuardian"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/addGuardian"
+        android:name="com.sounak.womensafety.guardiandetail.AddGuardian"
+        android:label="Add Guardian"
+        tools:layout="@layout/fragment_add_guardian">
+        <action
+            android:id="@+id/action_addGuardian_to_guardianInfo"
+            app:destination="@id/guardianInfo"
+            app:popUpTo="@+id/dashBoardFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <activity
+        android:id="@+id/mapsActivity"
+        android:name="com.sounak.womensafety.MapsActivity"
+        android:label="Current Location"
+        tools:layout="@layout/activity_maps" />
+</navigation>

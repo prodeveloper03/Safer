@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">safer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Current Location</string>
+
+    <string name="normal_map">Normal Map</string>
+    <string name="hybrid_map">Hybrid Map</string>
+    <string name="satellite_map">Satellite Map</string>
+    <string name="terrain_map">Terrain Map</string>
+
+    <string name="location_permission_not_granted">Location Permission not granted</string>
+
+    <string name="drawer_location">Check Location</string>
+    <string name="drawer_guardian">Guardian Details</string>
+    <string name="drawer_logout">Logout</string>
+
+    <string name="problem">Hello, I am in trouble. Click on the below link to see my location: \n</string>
+    <string name="enter_email_id">Enter Email ID</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_relation">Enter Relation</string>
+    <string name="enter_phone_no">Enter Phone No</string>
+    <string name="submit">Submit</string>
+    <string name="todo">TODO</string>
+    <string name="guardian_details">Guardian Details</string>
+    <string name="location">Location</string>
+    <string name="check_location">Check Location</string>
+    <string name="emergency">Emergency</string>
+    <string name="add_guardian">Add Guardian</string>
+    <string name="women_safety_app">Human Safety  App</string>
+
+    <string name="cleared_message">All your data is gone forever.</string>
+    <string name="name">Name</string>
+    <string name="relation">Relation</string>
+    <string name="phone">Phone</string>
+    <string name="email">Email</string>
+</resources>

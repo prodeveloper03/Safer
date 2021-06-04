@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/guardianInfo"
+        android:icon="@drawable/info"
+        android:title="@string/drawer_guardian" />
+    <item
+        android:id="@+id/mapsActivity"
+        android:icon="@drawable/location"
+        android:title="@string/drawer_location" />
+    <item android:title="Account Settings">
+        <menu>
+            <item
+                android:id="@+id/logout_user"
+                android:icon="@drawable/logout"
+                android:title="@string/drawer_logout" />
+        </menu>
+    </item>
+</menu>
