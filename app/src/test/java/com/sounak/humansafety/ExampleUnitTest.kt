@@ -1,4 +1,4 @@
-package com.sounak.womensafety
+package com.sounak.humansafety
 
 import org.junit.Test
 

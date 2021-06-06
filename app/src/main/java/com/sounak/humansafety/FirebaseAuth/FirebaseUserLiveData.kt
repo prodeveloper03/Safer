@@ -1,4 +1,4 @@
-package com.sounak.womensafety.FirebaseAuth
+package com.sounak.humansafety.FirebaseAuth
 
 import androidx.lifecycle.LiveData
 import com.google.firebase.auth.FirebaseAuth

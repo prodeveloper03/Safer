@@ -1,4 +1,4 @@
-package com.sounak.womensafety.utils
+package com.sounak.humansafety.utils
 
 import android.Manifest
 import android.content.Context

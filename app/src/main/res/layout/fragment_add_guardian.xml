@@ -2,8 +2,7 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.sounak.womensafety.guardiandetail.AddGuardian"
-    >
+    tools:context="com.sounak.humansafety.guardiandetail.AddGuardian">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/frameLayout2"
@@ -26,13 +25,14 @@
 
         <EditText
             android:id="@+id/editName"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_width="325dp"
+            android:layout_height="42dp"
             android:layout_marginTop="25dp"
             android:autofillHints=""
             android:background="@drawable/edit_name_background"
             android:ems="10"
             android:hint="@string/enter_name"
+            android:paddingLeft="6sp"
             android:inputType="textPersonName"
             app:layout_constraintBottom_toTopOf="@+id/editRelation"
             app:layout_constraintEnd_toEndOf="parent"
@@ -42,27 +42,30 @@
 
         <EditText
             android:id="@+id/editRelation"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:background="@drawable/edit_name_background"
+            android:layout_width="325dp"
+            android:layout_height="45dp"
             android:layout_marginTop="20dp"
+            android:paddingLeft="6sp"
+            android:background="@drawable/edit_name_background"
             android:ems="10"
             android:hint="@string/enter_relation"
             android:inputType="textPersonName"
             app:layout_constraintBottom_toTopOf="@+id/editPhone"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.651"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/editName" />
 
         <EditText
             android:id="@+id/editPhone"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="315dp"
+            android:layout_height="43dp"
             android:layout_marginTop="20dp"
-            android:ems="10"
-            android:inputType="number"
+            android:paddingLeft="6sp"
             android:background="@drawable/edit_name_background"
+            android:ems="10"
             android:hint="@string/enter_phone_no"
+            android:inputType="number"
             app:layout_constraintBottom_toTopOf="@+id/editEmail"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -70,14 +73,15 @@
 
         <EditText
             android:id="@+id/editEmail"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="319dp"
+            android:layout_height="51dp"
             android:layout_marginTop="20dp"
             android:background="@drawable/edit_name_background"
 
             android:ems="10"
-            android:inputType="textPersonName"
             android:hint="@string/enter_email_id"
+            android:inputType="textPersonName"
+            android:paddingLeft="6sp"
             app:layout_constraintBottom_toTopOf="@+id/submitDetail"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

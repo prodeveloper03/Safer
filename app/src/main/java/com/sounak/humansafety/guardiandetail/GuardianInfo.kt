@@ -1,4 +1,4 @@
-package com.sounak.womensafety.guardiandetail
+package com.sounak.humansafety.guardiandetail
 
 import android.os.Bundle
 import android.view.*
@@ -10,8 +10,8 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.snackbar.Snackbar
-import com.sounak.womensafety.R
-import com.sounak.womensafety.databinding.FragmentGuardianInfoBinding
+import com.sounak.humansafety.R
+import com.sounak.humansafety.databinding.FragmentGuardianInfoBinding
 
 class GuardianInfo : Fragment() {
 

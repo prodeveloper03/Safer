@@ -1,4 +1,4 @@
-package com.sounak.womensafety.guardiandetail
+package com.sounak.humansafety.guardiandetail
 
 import android.os.Bundle
 import android.text.TextUtils
@@ -10,9 +10,9 @@ import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProviders
 import androidx.navigation.fragment.findNavController
-import com.sounak.womensafety.R
-import com.sounak.womensafety.database.Guardian
-import com.sounak.womensafety.databinding.FragmentAddGuardianBinding
+import com.sounak.humansafety.R
+import com.sounak.humansafety.database.Guardian
+import com.sounak.humansafety.databinding.FragmentAddGuardianBinding
 
 class AddGuardian : Fragment() {
 

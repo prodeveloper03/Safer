@@ -1,4 +1,4 @@
-package com.sounak.womensafety
+package com.sounak.humansafety
 
 import android.app.Activity
 import android.content.Intent
@@ -22,7 +22,7 @@ import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.Marker
 import com.google.android.gms.maps.model.MarkerOptions
-import com.sounak.womensafety.utils.PermissionUtils
+import com.sounak.humansafety.utils.PermissionUtils
 
 class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMarkerClickListener {
 

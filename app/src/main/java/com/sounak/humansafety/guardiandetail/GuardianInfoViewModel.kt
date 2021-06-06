@@ -1,11 +1,11 @@
-package com.sounak.womensafety.guardiandetail
+package com.sounak.humansafety.guardiandetail
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.sounak.womensafety.database.Guardian
-import com.sounak.womensafety.database.GuardianDatabase
+import com.sounak.humansafety.database.Guardian
+import com.sounak.humansafety.database.GuardianDatabase
 import kotlinx.coroutines.*
 
 class GuardianInfoViewModel(

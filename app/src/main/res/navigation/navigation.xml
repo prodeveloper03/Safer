@@ -6,7 +6,7 @@
     app:startDestination="@id/dashBoardFragment">
     <fragment
         android:id="@+id/dashBoardFragment"
-        android:name="com.sounak.womensafety.DashBoardFragment"
+        android:name="com.sounak.humansafety.DashBoardFragment"
         android:label="Dashboard"
         tools:layout="@layout/fragment_dash_board">
         <action
@@ -22,7 +22,7 @@
     </fragment>
     <fragment
         android:id="@+id/guardianInfo"
-        android:name="com.sounak.womensafety.guardiandetail.GuardianInfo"
+        android:name="com.sounak.humansafety.guardiandetail.GuardianInfo"
         android:label="Guardian Information"
         tools:layout="@layout/fragment_guardian_info">
         <action
@@ -33,7 +33,7 @@
     </fragment>
     <fragment
         android:id="@+id/addGuardian"
-        android:name="com.sounak.womensafety.guardiandetail.AddGuardian"
+        android:name="com.sounak.humansafety.guardiandetail.AddGuardian"
         android:label="Add Guardian"
         tools:layout="@layout/fragment_add_guardian">
         <action
@@ -44,7 +44,7 @@
     </fragment>
     <activity
         android:id="@+id/mapsActivity"
-        android:name="com.sounak.womensafety.MapsActivity"
+        android:name="com.sounak.humansafety.MapsActivity"
         android:label="Current Location"
         tools:layout="@layout/activity_maps" />
 </navigation>

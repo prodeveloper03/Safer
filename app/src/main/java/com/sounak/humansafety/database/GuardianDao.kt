@@ -1,4 +1,4 @@
-package com.sounak.womensafety.database
+package com.sounak.humansafety.database
 
 import androidx.lifecycle.LiveData
 import androidx.room.Dao

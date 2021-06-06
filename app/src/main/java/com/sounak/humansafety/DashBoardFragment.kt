@@ -1,4 +1,4 @@
-package com.sounak.womensafety
+package com.sounak.humansafety
 
 import android.Manifest
 import android.app.Activity
@@ -24,10 +24,10 @@ import com.firebase.ui.auth.IdpResponse
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationServices
 import com.google.firebase.auth.FirebaseAuth
-import com.sounak.womensafety.FirebaseAuth.LoginViewModel
-import com.sounak.womensafety.database.Guardian
-import com.sounak.womensafety.database.GuardianDatabase
-import com.sounak.womensafety.databinding.FragmentDashBoardBinding
+import com.sounak.humansafety.FirebaseAuth.LoginViewModel
+import com.sounak.humansafety.database.Guardian
+import com.sounak.humansafety.database.GuardianDatabase
+import com.sounak.humansafety.databinding.FragmentDashBoardBinding
 
 import kotlinx.coroutines.*
 

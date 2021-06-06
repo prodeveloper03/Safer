@@ -1,4 +1,4 @@
-package com.sounak.womensafety.database
+package com.sounak.humansafety.database
 
 import android.content.Context
 import androidx.room.Database

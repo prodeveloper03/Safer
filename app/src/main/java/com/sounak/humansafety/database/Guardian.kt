@@ -1,4 +1,4 @@
-package com.sounak.womensafety.database
+package com.sounak.humansafety.database
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
